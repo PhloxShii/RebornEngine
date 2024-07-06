@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 972329341eb7bfd41a87c0a0f3314b02
+ModelImporter:
+  serializedVersion: 20100
+  internalIDToNameTable:
+  - first:
+      74: -8343557000432636405
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_bed_in
+  - first:
+      74: 2360657904288038214
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_bed_out
+  - first:
+      74: 4837645652060765846
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_catch
+  - first:
+      74: -1643785530366329206
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_choke
+  - first:
+      74: -5047749545243221515
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_choke_2
+  - first:
+      74: 6925813757092005902
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_giant_grab
+  - first:
+      74: -6784815618567390779
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_giant_look
+  - first:
+      74: -3181306584966566619
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_giant_look_001
+  - first:
+      74: 5503087061636208174
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_giant_look_002
+  - first:
+      74: 1168167901960988915
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_giant_look_start
+  - first:
+      74: -7253030999090003734
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_giant_search
+  - first:
+      74: 1367215367379751494
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_Idle
+  - first:
+      74: -2027671840982254094
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_idle_2
+  - first:
+      74: -5105022667048904705
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_intro_bulb_brake
+  - first:
+      74: -5330769806062263161
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_intro_hammer
+  - first:
+      74: -8202777656995112742
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_intro_hammer_put
+  - first:
+      74: 6696673140336907478
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_JumpEnd
+  - first:
+      74: -3524914502480507717
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_JumpFull
+  - first:
+      74: -2273293376520990591
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_JumpLoop
+  - first:
+      74: 4331108810865818708
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_JumpStart
+  - first:
+      74: 6623890458805578983
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_LookAround
+  - first:
+      74: -1122809340034494845
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_notice
+  - first:
+      74: -2435041234282295330
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_open_door_inward
+  - first:
+      74: 6671383666543493345
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_RunAttack
+  - first:
+      74: -6981597852352476925
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_stand_up
+  - first:
+      74: 1506522203065843776
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_Walking
+  - first:
+      74: 518665998440682502
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_walking_test
+  - first:
+      74: -7140309036936156545
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_Window_cleanin
+  - first:
+      74: -2416421458154673017
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_WindowJump_part_1
+  - first:
+      74: 3973449658797840732
+    second: neighbour_lowpoly.ao|neighbour_lowpoly_Anim_rig_WindowJump_part_2
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
