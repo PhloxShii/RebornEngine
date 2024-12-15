@@ -34,12 +34,16 @@ public class EnemyAI : MonoBehaviour
         {
             if (hit.collider.gameObject.tag == "Player")
             {
-                walking = false;
-                StopCoroutine("stayIdle");
-                StopCoroutine("chaseRoutine");
-                StartCoroutine("chaseRoutine");
-                chasing = true;
-                PlayChaseMusic();
+                hidingPlace playerHiding = player.GetComponent<hidingPlace>();
+                if (playerHiding == null || !playerHiding.hiding)
+                {
+                    walking = false;
+                    StopCoroutine("stayIdle");
+                    StopCoroutine("chaseRoutine");
+                    StartCoroutine("chaseRoutine");
+                    chasing = true;
+                    PlayChaseMusic();
+                }
             }
         }
         if (chasing == true)
@@ -51,7 +55,9 @@ public class EnemyAI : MonoBehaviour
             aiAnim.ResetTrigger("idle");
             aiAnim.SetTrigger("sprint");
             float distance = Vector3.Distance(player.position, ai.transform.position);
-            if (distance <= catchDistance)
+            
+            hidingPlace playerHiding = player.GetComponent<hidingPlace>();
+            if (distance <= catchDistance && (playerHiding == null || !playerHiding.hiding))
             {
                 StopChaseMusic();
                 player.gameObject.SetActive(false);
@@ -113,5 +119,14 @@ public class EnemyAI : MonoBehaviour
     void StopChaseMusic()
     {
         chasemusic.SetActive(false);
+    }
+    public void stopChase()
+    {
+        walking = true;
+        chasing = false;
+        StopCoroutine("chaseRoutine");
+        randNum = Random.Range(0, destinations.Count);
+        currentDest = destinations[randNum];
+        StopChaseMusic();
     }
 }
